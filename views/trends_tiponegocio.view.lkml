@@ -18,6 +18,7 @@ view: trends_tiponegocio {
     sql: ${TABLE}.habitaciones ;;
   }
   dimension: region {
+    primary_key: yes
     type: string
     sql: ${TABLE}.Region ;;
   }

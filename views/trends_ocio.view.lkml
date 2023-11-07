@@ -18,6 +18,7 @@ view: trends_ocio {
     sql: ${TABLE}.Piscinas ;;
   }
   dimension: region {
+    primary_key: yes
     type: string
     sql: ${TABLE}.Region ;;
   }
