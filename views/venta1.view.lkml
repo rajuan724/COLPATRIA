@@ -9,6 +9,7 @@ view: venta1 {
     type: number
     sql: ${TABLE}.columna_entero ;;
   }
+
   dimension: comprador_autoriza_envio_correo {
     type: string
     sql: ${TABLE}.CompradorAutorizaEnvioCorreo ;;
