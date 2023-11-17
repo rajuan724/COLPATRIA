@@ -66,6 +66,7 @@ view: venta1 {
   dimension: id_proyecto {
     type: string
     sql: ${TABLE}.IdProyecto ;;
+    drill_fields: [vta_nombre_proyecto]
   }
   dimension: id_venta {
     type: number
